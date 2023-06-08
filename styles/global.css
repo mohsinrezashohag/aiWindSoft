@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+
+
+:root {
+    --primary-color: #FCC304;;
+    --active-text :#bb9a2d83;
+    --special-text:#068DA9;
+}
+
+
+
+*{
+    font-family: 'Karla', sans-serif;
+}
+.y-text{
+  color: var(--primary-color);
+}
+
+
+/* hero */
+.btn{
+    background-color: var(--primary-color);
+}
+
+
+
+/* carousal */
+.carousel-text{
+  color: var(--special-text)
+}
+
+/* testimonials */
+@keyframes scroll {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: -100%;
+    }
+  }
+  
+  .animate {
+    animation: scroll 35s linear infinite;
+  }
+
+.sub-heading{
+  font-size: 20px;
+}
+
+  /* details */
+
+  .details_tittle{
+    color: var(--primary-color);
+  }
+
+
+  /* footer */
+
+  ul li :hover{
+color: var(--active-text);
+  }
+
+  @layer components {
+    .hero-heading {
+      @apply text-5xl font-bold;
+    }
+    .sub-heading{
+      @apply text-2xl text-gray-500
+    }
+    }
+
+
+    /* about */
+
+    .bar{
+      background: var(--primary-color);
+    }
