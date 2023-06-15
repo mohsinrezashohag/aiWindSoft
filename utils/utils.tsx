@@ -4,6 +4,9 @@ export const team = [
     { name: "Mohsin Reza", post: "CEO", image: reza },
     { name: "Alex Lee", post: "Team Lead", image: reza },
     { name: "Tennison Chan", post: "Senior SE", image: reza },
+    { name: "Tennison Chan", post: "Senior SE", image: reza },
+    { name: "Tennison Chan", post: "Senior SE", image: reza },
+    { name: "Tennison Chan", post: "Senior SE", image: reza },
 ]
 
 import b_1 from '../public/assets/b_1.jpeg'

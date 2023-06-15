@@ -13,7 +13,7 @@ images = [companyOne, companyTwo, companyThree, companyFour, companyFive]
 const Carousel = () => {
     return (
 
-        <div className='max-w-[1350px] mx-auto'>
+        <div className='max-w-[1350px] mx-auto bg-white'>
 
             <p className='carousel-text text-center text-xs font-semibold pb-10'>TRUSTED BY HYPER-GROWTH STARTUPS</p>
 

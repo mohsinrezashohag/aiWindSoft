@@ -6,7 +6,7 @@ import f_three from '../public/assets/f_three.png'
 import f_four from '../public/assets/f_four.png'
 const Featured = () => {
     return (
-        <div className='max-w-[1350px] mx-auto '>
+        <div className='max-w-[1350px] mx-auto -z-10 '>
 
             <div className='flex flex-col justify-center align-center items-center text-sm'>
                 <p className='text-center p-16 md:py-24 carousel-text'>FEATURED</p>

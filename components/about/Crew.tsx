@@ -25,7 +25,7 @@ const Crew = () => {
                             alt={item.name}
                             height={250}
                             width={250}
-                            className='border-b-8 border-r-8 p-3 rounded-md'
+                            className='border-b-8 border-r-8 p-3 rounded-full'
                         ></Image>
 
                         <h3 className='text-2xl py-3 font-bold'>Mr. {item.name}</h3>

@@ -7,6 +7,7 @@ import p_one from '../public/assets/p_one.jpeg'
 import p_two from '../public/assets/p_two.jpeg'
 import p_three from '../public/assets/p_three.jpg'
 import { FaLongArrowAltRight, FaLongArrowAltLeft } from "react-icons/fa";
+import { motion } from 'framer-motion'
 
 
 
@@ -37,10 +38,20 @@ const Testimonial = () => {
     };
 
     return (
-        <div className='relative p-6 overflow-hidden bg-gray-300  pb-60'>
+        <div className='relative p-6 overflow-hidden bg-gray-300  pb-60 z-20'>
 
 
-            <div className='max-w-[1350px] mx-auto relative'>
+            <motion.div
+
+                initial={{ opacity: 0.2, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{
+                    delay: 0.4
+                }}
+
+
+
+                className='max-w-[1350px] mx-auto relative'>
                 <Slider {...settings} ref={slideRef}>
 
 
@@ -120,7 +131,7 @@ const Testimonial = () => {
                         <FaLongArrowAltLeft size={30} />
                     </button>
                 </div>
-            </div>
+            </motion.div>
 
 
 

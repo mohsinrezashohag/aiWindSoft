@@ -23,6 +23,19 @@
 }
 
 
+/* navbar */
+ul li {
+font-size: 14px;
+  font-weight: 300;
+  padding-bottom: 2px;
+}
+.active-link{
+border-bottom: 2px solid #FCC304;
+color: #FCC304;
+}
+
+
+
 /* hero */
 .btn{
     background-color: var(--primary-color);

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import logo from '../public/assets/logo.png'
+import logo from '../public/assets/Ai Wind.png'
 import { FaLinkedin, FaTwitter } from 'react-icons/fa';
 import Link from 'next/link';
 
@@ -17,6 +17,7 @@ const Footer = () => {
                             alt='logo'
                             width={130}
                             height={130}
+                            className='rounded-lg shadow-md'
 
 
                         />
