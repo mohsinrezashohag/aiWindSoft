@@ -20,41 +20,9 @@ const Service = () => {
                 <div className='flex flex-col items-center mt-20'>
 
 
-                    <div className='relative h-60'>
-                        <div className='absolute p-4 w-[300px] md:w-[600px] mx-auto ms-20 -mt-4' >
-                            <p className='y-text'>Connect</p>
-                            <h1 className='text-2xl font-semibold mt-2'>Integrate your bank account 🥧</h1>
-                            <p className='sub-heading'>So we won't need to ask you for monthly reports. We'll pull the bank transactions directly. It's as easy as pie</p>
-                        </div>
-                        <div className='absolute w-1 bg-yellow-500 h-40'>
-                            <span className=' absolute w-5 h-5 z-10 bg-yellow-600  rounded-full  inline-block -right-2'></span>
-                            <span className=' absolute w-7 h-7 z-11 bg-gray-600 -top-1 rounded-full  inline-block -right-3'></span>
-                            <span className=' absolute w-24 h-1 bg-yellow-500 z-11  rounded-full  inline-block -right-20 top-3 -z-10'></span>
-                        </div>
-                    </div>
-
-
-                    <div className='relative h-60 -mt-20'>
-                        <div className='absolute p-4 w-[300px] md:w-[800px] max-auto ms-20 right-0 -mt-4 text-right px-24' >
-                            <p className='y-text'>Upload</p>
-                            <h1 className='text-2xl font-semibold mt-2'>Upload invoices and contracts ⏳</h1>
-                            <p className='sub-heading'>Invoices and contracts may not impact your cash just yet but it impacts your accounting. Easily upload these files</p>
-                        </div>
-                        <div className='absolute w-1 bg-yellow-500 h-48 '>
-                            <span className=' absolute w-5 h-5 z-10 bg-yellow-600  rounded-full  inline-block -right-2'></span>
-                            <span className=' absolute w-7 h-7 z-11 bg-gray-600 -top-1 rounded-full  inline-block -right-3'></span>
-                            <span className=' absolute w-24 h-1 bg-yellow-500 z-11  rounded-full  inline-block -left-20 top-3 -z-10'></span>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div className='flex  md:flex-col items-center -mt-12 '>
-
-
-                    <div className='relative h-60'>
+                    <div className='relative h-60 mt-10'>
                         <div className='absolute p-4 w-[600px] ms-20 -mt-4' >
-                            <p className='y-text'>Connect</p>
+                            <p className='y-text '>Connect</p>
                             <h1 className='text-2xl font-semibold mt-2'>Integrate your bank account 🥧</h1>
                             <p className='sub-heading'>So we won't need to ask you for monthly reports. We'll pull the bank transactions directly. It's as easy as pie</p>
                         </div>
@@ -68,7 +36,39 @@ const Service = () => {
 
                     <div className='relative h-60 -mt-20'>
                         <div className='absolute p-4 w-[800px] ms-20 right-0 -mt-4 text-right px-24' >
-                            <p className='y-text'>Upload</p>
+                            <p className='y-text pe-20'>Upload</p>
+                            <h1 className='text-2xl font-semibold mt-2'>Upload invoices and contracts ⏳</h1>
+                            <p className='sub-heading'>Invoices and contracts may not impact your cash just yet but it impacts your accounting. Easily upload these files</p>
+                        </div>
+                        <div className='absolute w-1 bg-yellow-500 h-40 '>
+                            <span className=' absolute w-5 h-5 z-10 bg-yellow-600  rounded-full  inline-block -right-2'></span>
+                            <span className=' absolute w-7 h-7 z-11 bg-gray-600 -top-1 rounded-full  inline-block -right-3'></span>
+                            <span className=' absolute w-24 h-1 bg-yellow-500 z-11  rounded-full  inline-block -left-20 top-3 -z-10'></span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className='flex  md:flex-col items-center -mt-12 '>
+
+
+                    <div className='relative h-60'>
+                        <div className='absolute p-4 w-[600px] ms-20 -mt-4' >
+                            <p className='y-text '>Connect</p>
+                            <h1 className='text-2xl font-semibold mt-2'>Integrate your bank account 🥧</h1>
+                            <p className='sub-heading'>So we won't need to ask you for monthly reports. We'll pull the bank transactions directly. It's as easy as pie</p>
+                        </div>
+                        <div className='absolute w-1 bg-yellow-500 h-40'>
+                            <span className=' absolute w-5 h-5 z-10 bg-yellow-600  rounded-full  inline-block -right-2'></span>
+                            <span className=' absolute w-7 h-7 z-11 bg-gray-600 -top-1 rounded-full  inline-block -right-3'></span>
+                            <span className=' absolute w-24 h-1 bg-yellow-500 z-11  rounded-full  inline-block -right-20 top-3 -z-10'></span>
+                        </div>
+                    </div>
+
+
+                    <div className='relative h-60 -mt-20'>
+                        <div className='absolute p-4 w-[800px] ms-20 right-0 -mt-4 text-right px-24' >
+                            <p className='y-text pe-20'>Upload</p>
                             <h1 className='text-2xl font-semibold mt-2'>Upload invoices and contracts ⏳</h1>
                             <p className='sub-heading'>Invoices and contracts may not impact your cash just yet but it impacts your accounting. Easily upload these files</p>
                         </div>
@@ -120,12 +120,12 @@ const Service = () => {
 
             <section>
                 <div className='mt-20 pt-16 px-40 mb-10'>
-                    <div className='text-center flex items-center justify-center mx-auto my-10'>
+                    <div className='text-center flex items-center justify-left md:justify-center md:mx-auto my-10'>
                         <p className='uppercase font-bold y-text'>FINANCE
                         </p>
                         <div className='bar w-[40px] h-[3px] block ms-2'></div>
                     </div>
-                    <h1 className='hero-heading text-center'>Get ready for fundraising with a
+                    <h1 className='hero-heading text-left md:text-center'>Get ready for fundraising with a
                         financial model</h1>
                 </div>
 
