@@ -53,21 +53,19 @@ const Navbar = () => {
                                 <Link className={`${pathName === '/about' ? 'active-link' : ""}`} href="/about">About</Link>
                             </li>
                             <li>
-                                <Link className={`${pathName === '/service' ? 'active-link' : ""}`} href="/service">service</Link>
+                                <Link className={`${pathName === '/service' ? 'active-link' : ""}`} href="/service">Service</Link>
                             </li>
                             <li>
-                                <Link className={`${pathName === '/blog' ? 'active-link' : ""}`} href="/blog">Musings</Link>
+                                <Link className={`${pathName === '/blog' ? 'active-link' : ""}`} href="/blog">Blogs</Link>
                             </li>
-                            <li>
-                                <Link className={`${pathName === '/hiring' ? 'active-link' : ""}`} href="/hiring">Hiring</Link>
-                            </li>
+
                         </ul>
                     </div>
 
                     <div>
                         <button className=' btn px-6 py-1  rounded rounded-md text-black font-semibold'>
 
-                            contact us
+                            Contact Us
                         </button>
                     </div>
                 </div>
@@ -113,14 +111,12 @@ const Navbar = () => {
                             <Link href="/about">About</Link>
                         </li>
                         <li>
-                            <Link href="/service">Product</Link>
+                            <Link href="/service">Service</Link>
                         </li>
                         <li>
-                            <Link href="/blog">Musings</Link>
+                            <Link href="/blog">Blogs</Link>
                         </li>
-                        <li>
-                            <Link href="/hiring">Hiring</Link>
-                        </li>
+
                     </ul>
                 </motion.div>
             }

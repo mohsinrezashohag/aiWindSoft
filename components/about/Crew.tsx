@@ -4,7 +4,7 @@ import React from 'react';
 
 const Crew = () => {
     return (
-        <div className='flex flex-col '>
+        <div className='flex flex-col' id='team'>
 
             <div>
                 <div className='text-center flex items-center mx-auto my-10 justify-center'>

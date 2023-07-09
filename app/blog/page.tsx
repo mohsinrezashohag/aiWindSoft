@@ -24,7 +24,7 @@ const page = () => {
 
                 <div className='flex flex-col md:flex-row gap-12'>
 
-                    <div className='bg-gray-300 rounded-md'>
+                    <div className='bg-gray-300 rounded-md cursor-pointer'>
 
                         <Image
                             src={b_two}
@@ -42,7 +42,7 @@ const page = () => {
                         </div>
                     </div>
 
-                    <div className='bg-gray-300 rounded-md'>
+                    <div className='bg-gray-300 rounded-md cursor-pointer'>
 
                         <Image
                             src={b_one}
@@ -67,7 +67,7 @@ const page = () => {
 
                         {blogs.map(blog =>
 
-                            <div key={blog.id} className='bg-gray-300 rounded-md'>
+                            <div key={blog.id} className='bg-gray-300 rounded-md cursor-pointer'>
 
                                 <Image src={blog.image} alt={blog.title} className='rounded-md' />
 

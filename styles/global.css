@@ -17,6 +17,7 @@
 
 *{
     font-family: 'Karla', sans-serif;
+    scroll-behavior: smooth;
 }
 .y-text{
   color: var(--primary-color);
@@ -26,7 +27,7 @@
 /* navbar */
 ul li {
 font-size: 14px;
-  font-weight: 300;
+  font-weight: 600;
   padding-bottom: 2px;
 }
 .active-link{

@@ -4,7 +4,7 @@ import React from 'react';
 
 const Service = () => {
     return (
-        <div className=''>
+        <div className='' id='service'>
 
             <div className='mt-20 pt-16'>
                 <div className='text-center flex items-center justify-center mx-auto my-10'>

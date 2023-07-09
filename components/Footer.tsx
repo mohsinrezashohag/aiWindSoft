@@ -25,7 +25,7 @@ const Footer = () => {
 
                     <div className='Links text-gray-500 text-left md:text-right font-semibold'>
 
-                        <ul className='flex flex-row gap-x-2 md:flex-col gap-y-6'>
+                        <ul className='flex flex-col gap-x-2 md:flex-col gap-y-6'>
 
                             <p className='uppercase hidden md:block'>truwind</p>
 
@@ -53,13 +53,9 @@ const Footer = () => {
 
 
                 <div className='flex justify-between align-middle items-center mt-6 px-52 md:px-0 py-6' >
-
-
                     <div className='flex gap-4'>
-
                         <button
                             className="rounded-full btn p-4 border-r-8 border-b-8"
-
                         >
                             <FaLinkedin size={30} />
                         </button>

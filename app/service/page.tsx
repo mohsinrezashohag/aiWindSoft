@@ -1,8 +1,10 @@
+"use client"
 import Image from 'next/image';
 import React from 'react';
-import product from '../../public/assets/product.jpeg'
-import { FaArrowDown } from 'react-icons/fa';
+import serviceImage from '../../public/assets/florid-support-service.png'
+import downArrow from '../../public/assets/angle-down-solid.svg';
 import Service from '@/components/services/Service';
+
 
 
 const page = () => {
@@ -21,18 +23,19 @@ const page = () => {
 
                     <div>
                         <Image
-                            src={product}
+                            src={serviceImage}
                             alt='product'
-                            height={500}
-                            width={500}
-                            className='rounded-md border-b-8 border-r-8'
+                            height={400}
+                            width={400}
                         >
-
                         </Image>
                     </div>
                 </div>
 
-                <button className="btn rounded-md px-16 py-8 gap-4 font-bold flex items-center text-white"><FaArrowDown size={30} className='bg-gray-600 p-2 rounded-full'></FaArrowDown><p>Meet the team</p></button>
+                <a href='#service' className='flex gap-3 items-center font-semibold'>
+                    <Image src={downArrow} alt="" width={40} />
+                    <p className='y-text text-2xl'>See Details</p>
+                </a>
 
             </div>
 

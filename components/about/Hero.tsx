@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import { FaArrowDown } from 'react-icons/fa';
+import downArrow from '../../public/assets/angle-down-solid.svg';
 import manVec from '../../public/assets/manVec.jpg'
 import Link from 'next/link';
 
@@ -13,11 +13,11 @@ const Hero = () => {
 
                 <p className='sub-heading py-10'>We love finance & accounting. We're a team of technology engineers with one shared goal: give you peace of mind</p>
 
-                <a href='#team' className='flex gap-3 align-middle font-semibold'>
-
-                    <FaArrowDown size={30} className='bg-gray-600 p-2 rounded-full'></FaArrowDown><p>Meet the team</p>
-
+                <a href='#team' className='flex gap-3 items-center font-semibold'>
+                    <Image src={downArrow} alt="" width={40} />
+                    <p className='y-text text-2xl'>Meet the team</p>
                 </a>
+
 
             </div>
 
